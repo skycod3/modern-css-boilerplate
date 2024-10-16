@@ -1,0 +1,21 @@
+/* Button component example */
+
+.button {
+  cursor: pointer;
+
+  transition: 0.2s ease;
+
+  display: inline-flex;
+  gap: var(--size-3);
+
+  padding-inline: var(--size-3);
+  padding-block: var(--size-1);
+
+  border: 1px solid var(--gray-7);
+  border-radius: var(--radius-2);
+
+  &:where(:hover, :focus-visible) {
+    background-color: var(--gray-10);
+    color: var(--gray-3);
+  }
+}

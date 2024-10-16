@@ -1,0 +1,8 @@
+/* Card component example */
+
+.card {
+  padding-inline: var(--size-3);
+  padding-block: var(--size-3);
+  border-radius: var(--radius-2);
+  background-color: var(--stone-2);
+}
